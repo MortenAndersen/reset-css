@@ -34,16 +34,13 @@ nav ul li a {
 	text-decoration: none
 }
 
-header > nav > ul > li,
-footer > nav > ul > li {
+header > nav > ul > li {
 	float: left;
 	line-height: 1.5em;
 }
 
-header > nav > ul > li a,
-footer > nav > ul > li a {
+header > nav > ul > li a {
 	float: left;
-	padding: 0 1em;
 }
 
 /* ------------------------------------------------------------------------------- 
@@ -61,7 +58,7 @@ a:hover {
 			Form
 ------------------------------------------------------------------------------- */
 
-input{
+input {
 	width: 97%;
 	-webkit-transition: all 0.40s ease-in-out;
 	-moz-transition: all 0.40s ease-in-out;
@@ -70,6 +67,12 @@ input{
 }
 input[type=submit]{
 	width: auto;
+}
+
+@media screen and (max-width: 480px) {
+	input {
+	width: 94%;
+	}
 }
 
 /* ------------------------------------------------------------------------------- 
@@ -97,6 +100,15 @@ ul.tabs.primary li{
 form#user-login .form-item, 
 form#user-login .form-actions {
 	margin: 1em 0;
+}
+
+/* WEBFORM */
+.form-textarea-wrapper {
+	width: 98%;
+}
+
+.form-managed-file .form-file, .form-managed-file .form-submit {
+	margin: 0.5em 0;
 }
 
 /* BXSlider */
