@@ -6,6 +6,7 @@ aside > ul,
 aside > ol {
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 aside ul li, aside ol li {
