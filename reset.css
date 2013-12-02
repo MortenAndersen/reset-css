@@ -108,10 +108,6 @@ form#user-login .form-actions {
 }
 
 /* WEBFORM */
-.form-textarea-wrapper {
-	width: 98%;
-}
-
 .form-managed-file .form-file, .form-managed-file .form-submit {
 	margin: 0.5em 0;
 }
